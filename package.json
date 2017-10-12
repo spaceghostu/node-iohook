@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
+    "preinstall": "npm install cmake-js -g",
     "install": "cmake-js compile -G \"Visual Studio 15 2017\""
   },
   "keywords": [
